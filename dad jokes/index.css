@@ -1,0 +1,58 @@
+body
+{
+    margin: 0;
+    /* background-image: url(https://tse3.mm.bing.net/th?id=OIP.TiDxqAruWcxiLe8ERVk7kgHaEK&pid=Api&P=0); */
+    background: linear-gradient(to left bottom, lightblue,lightpink,lightblue);
+    min-height: 100vh;
+    /* border-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    background-color: rgba(255,255,255,.30);
+    padding: 25px;
+    box-shadow: 0 8px 12px rgba(0,0,0,.3);
+    border-radius: 20px;
+    width: 60%;
+    text-align: center;
+    color: darkred;
+    
+}
+
+.heading
+{
+    font-size: 40px;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 5px 5px 4px rgba(0,0,0,.3);
+    letter-spacing: 1px;
+}
+
+.joke{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 40px;
+    letter-spacing: 2px;
+}
+
+.btn
+{
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-color: rgba(255,255,255,.30);
+    background-color: rgba(255,255,255,.30);
+    color: darkred;
+}
+
+.btn:hover{
+    background-color: rgba(255,255,255,.70);
+    box-shadow: 0 4px 4px rgba(0,0,0,.3);
+    transition: 0.3s;
+}

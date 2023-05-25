@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(to bottom, lightyellow,lightgreen);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+
+}
+.container{
+    background: linear-gradient(to top, lightyellow, lightgreen );
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0 , 0, 0.5);
+    width: 90%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-weight: 50;
+
+}
+
+.input{
+    padding: 15px 10px;
+    font-size: 18px;
+    background-color: bisque;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 50px;
+}
+
+.errmsg{
+    color: red;
+    font-weight: 600px;
+    margin: 10px;
+    display: none;
+}
+
+.btn{
+    text-transform: uppercase;
+    padding: 10px;
+    width: 150px;
+    margin: 10px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 18px;
+    background: linear-gradient(to top, black,lightyellow);
+    color: white;
+}
+
+.btn:hover{
+    background: linear-gradient(to top, green,lightyellow);
+    cursor: pointer;
+    transition: background 0.4s ease-in-out;
+}
+
+.gallery img{
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin: 5px;
+}
